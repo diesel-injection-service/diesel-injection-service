@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, Clock, Wrench, Menu, X } from 'lucide-react';
+import { Phone, Mail, Clock, Menu, X } from 'lucide-react';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,8 +40,12 @@ const Header = () => {
                     {/* Left Container */}
                     <div className="flex items-center space-x-3">
                         {/* Logo IMG*/}
-                        <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                            <Wrench className="w-6 h-6 text-white" />
+                        <div className="w-12 h-12 flex items-center justify-center">
+                            <img 
+                                src="/diesel-logo.png" 
+                                alt="Diesel Injection Service Logo" 
+                                className="w-12 h-12 object-contain"
+                            />
                         </div>
                         {/* Logo Text */}
                         <div>

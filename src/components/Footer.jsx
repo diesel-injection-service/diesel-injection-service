@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrench, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -12,8 +12,12 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <Wrench className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img 
+                  src="/diesel-logo.png" 
+                  alt="Diesel Injection Service Logo" 
+                  className="w-10 h-10 object-contain"
+                />
               </div>
               <div>
                 <h3 className="font-bold">Diesel Injection Service</h3>

@@ -3,7 +3,17 @@ import { Award, ChevronRight } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section id="home" className="relative bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-20">
+        // <section id="home" className="relative bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-20">
+        <section 
+            id="home" 
+            className="relative py-20"
+            style={{
+                backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/hero-bg.jpg')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+            }}
+        >
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
@@ -45,7 +55,7 @@ const Hero = () => {
                         </div>
 
                         {/* Contact Button */}
-                        <a href="#contact" className="border-2 border-gray-600 hover:border-blue-400 px-8 py-3 rounded-lg font-semibold transition-colors text-center block sm:max-w-xs sm:mx-auto">
+                        <a href="#contact" className="border-2 border-white hover:border-blue-400 hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all text-center block sm:max-w-xs sm:mx-auto shadow-lg">
                             Contact Us
                         </a>
                     </div>
