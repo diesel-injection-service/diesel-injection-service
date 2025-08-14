@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
     return (
     <section id="about" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           
           {/* Left Side - Why Choose Us */}
           <div>
@@ -77,10 +77,10 @@ const WhyChooseUs = () => {
 
           {/* Right Side - Testimonials */}
           <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-2xl">
-            <div className="bg-gray-800 p-6 rounded-xl">
+            <div className="bg-gray-800 p-6 rounded-xl h-80 flex flex-col">
               <h3 className="text-2xl font-bold mb-4 text-center">Customer Testimonial</h3>
               
-              <div className="text-center">
+              <div className="flex-1 flex flex-col justify-center text-center">
                 {/* Star Rating */}
                 <div className="flex justify-center mb-4">
                   {[...Array(testimonials[activeTestimonial].rating)].map((_, i) => (
@@ -88,11 +88,15 @@ const WhyChooseUs = () => {
                   ))}
                 </div>
                 
-                {/* Testimonial Text */}
-                <p className="text-lg italic mb-4">"{testimonials[activeTestimonial].text}"</p>
+                {/* Testimonial Text - Truncated with ellipsis */}
+                <div className="h-24 mb-4 flex items-center justify-center">
+                  <p className="text-lg italic text-center leading-relaxed line-clamp-4 overflow-hidden">
+                    "{testimonials[activeTestimonial].text}"
+                  </p>
+                </div>
                 
                 {/* Customer Info */}
-                <div>
+                <div className="mt-auto">
                   <div className="font-semibold">{testimonials[activeTestimonial].name}</div>
                   <div className="text-sm text-gray-400">{testimonials[activeTestimonial].company}</div>
                 </div>
