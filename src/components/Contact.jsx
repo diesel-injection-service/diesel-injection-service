@@ -65,7 +65,7 @@ const Contact = () => {
                 <div className="text-sm text-gray-400">
                   <div className="flex items-center justify-center space-x-2 mb-2">
                     <Mail className="w-4 h-4" />
-                    <span>info@dieselinjectionservice.com</span>
+                    <span>marcelaalonso@injectorsusa.com</span>
                   </div>
                 </div>
               </div>

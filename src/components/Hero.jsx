@@ -67,7 +67,7 @@ const Hero = () => {
                                 <h3 className="text-2xl font-bold mb-4">Quick Stats</h3>
                                 <div className="grid grid-cols-2 gap-4">
                                     <div className="text-center">
-                                        <div className="text-3xl font-bold text-blue-400">65+</div>
+                                        <div className="text-3xl font-bold text-blue-400">75</div>
                                         <div className="text-sm text-gray-400">Years Experience</div>
                                     </div>
                                     <div className="text-center">
@@ -75,12 +75,12 @@ const Hero = () => {
                                         <div className="text-sm text-gray-400">Bosch Certified US</div>
                                     </div>
                                     <div className="text-center">
-                                        <div className="text-3xl font-bold text-blue-400">1000+</div>
+                                        <div className="text-3xl font-bold text-blue-400">60000+</div>
                                         <div className="text-sm text-gray-400">Happy Clients</div>
                                     </div>
                                     <div className="text-center">
                                         <div className="text-3xl font-bold text-blue-400">24hr</div>
-                                        <div className="text-sm text-gray-400">Turnaround*</div>
+                                        <div className="text-sm text-gray-400">Test Results*</div>
                                     </div>
                                 </div>
                             </div>
