@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
                   <Users className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">65+ Years of Trust</h3>
+                  <h3 className="text-xl font-semibold mb-2">75 Years of Trust</h3>
                   <p className="text-gray-400">Three generations of expertise serving the diesel community with unmatched knowledge and reliability.</p>
                 </div>
               </div>
