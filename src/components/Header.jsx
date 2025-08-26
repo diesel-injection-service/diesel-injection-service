@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, Clock, Menu, X } from 'lucide-react';
+import { Phone, Mail, Clock, Menu, X, MapPin } from 'lucide-react';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +21,11 @@ const Header = () => {
                             <div className="flex items-center space-x-2">
                                 <Mail className="w-4 h-4 text-blue-400" />
                                 <span>amarshall@disinjection.com</span>
+                            </div>
+                            {/* Address Container */}
+                            <div className="flex items-center space-x-2">
+                                <MapPin className="w-4 h-4 text-blue-400" />
+                                <span>8482 Cherry Ave, Fontana, CA 92335</span>
                             </div>
                         </div>
 
@@ -49,7 +54,7 @@ const Header = () => {
                             </div>
                             {/* Logo Text */}
                             <div>
-                                <h1 className="text-2xl font-bold">Diesel Injection</h1>
+                                <h1 className="text-2xl font-bold">Diesel Injection Service</h1>
                                 <p className="text-sm text-gray-400">Excellence Since 1951</p>
                             </div>
                         </a>
