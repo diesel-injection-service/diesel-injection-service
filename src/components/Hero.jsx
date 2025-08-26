@@ -46,7 +46,7 @@ const Hero = () => {
                             </a>
 
                             {/* Shop Button */}
-                            <a href="#shop" className="bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-700 hover:to-cyan-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all text-center sm:flex-1 flex items-center justify-center">
+                            <a href="https://diesel-injection-service.myshopify.com" className="bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-700 hover:to-cyan-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all text-center sm:flex-1 flex items-center justify-center">
                                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
                                 </svg>

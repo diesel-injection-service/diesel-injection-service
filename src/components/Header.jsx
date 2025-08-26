@@ -62,7 +62,7 @@ const Header = () => {
                             <a href="#location" className="hover:text-blue-400 transition-colors">Location</a>
                             <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
                             {/* Shop Button */}
-                            <a href="#shop" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors">Shop Parts</a>
+                            <a href="https://diesel-injection-service.myshopify.com" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors">Shop Parts</a>
                         </nav>
 
                         {/* Hamburger Menu */}
@@ -83,7 +83,7 @@ const Header = () => {
                                 <a href="#about" className="hover:text-blue-400 transition-colors">About</a>
                                 <a href="#location" className="hover:text-blue-400 transition-colors">Location</a>
                                 <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
-                                <a href="#shop" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors inline-block">Shop Parts</a>
+                                <a href="https://diesel-injection-service.myshopify.com" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors inline-block">Shop Parts</a>
                             </div>
                         </nav>
                     )}
