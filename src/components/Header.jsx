@@ -20,7 +20,7 @@ const Header = () => {
                             {/* Email Container */}
                             <div className="flex items-center space-x-2">
                                 <Mail className="w-4 h-4 text-blue-400" />
-                                <span>amarshall@disinjection.com</span>
+                                <span></span>
                             </div>
                             {/* Address Container */}
                             <div className="flex items-center space-x-2">
