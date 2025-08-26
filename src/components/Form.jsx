@@ -23,13 +23,20 @@ const Form = () => {
     'General Inquiry'
   ];
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
 
     try {
-      // Replace 'YOUR_FORM_ID' with your actual Formspree form ID
       const response = await fetch('https://formspree.io/f/xjkevjvd', {
         method: 'POST',
         headers: {
@@ -81,7 +88,7 @@ const Form = () => {
           </div>
         )}
 
-        <div className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6">
           {/* Name Field */}
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-300">
@@ -187,8 +194,7 @@ const Form = () => {
 
           {/* Submit Button */}
           <button
-            type="button"
-            onClick={handleSubmit}
+            type="submit"
             disabled={isSubmitting}
             className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-600 disabled:cursor-not-allowed px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2 text-white"
           >
@@ -209,7 +215,7 @@ const Form = () => {
           <p className="text-xs text-gray-400 text-center">
             Your information is secure and will only be used to respond to your inquiry.
           </p>
-        </div>
+        </form>
       </div>
     </div>
   );
