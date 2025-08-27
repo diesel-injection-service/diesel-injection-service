@@ -33,7 +33,7 @@ const Hero = () => {
 
                         {/* Description */}
                         <p className="text-xl text-gray-300 mb-8">
-                            Over 65 years of diesel injection expertise. From fleet maintenance to precision rebuilds, 
+                            Over 75 years of diesel injection expertise. From fleet maintenance to precision rebuilds, 
                             we're the trusted choice for diesel professionals across the region.
                         </p>
 
