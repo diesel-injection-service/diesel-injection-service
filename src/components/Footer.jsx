@@ -64,7 +64,7 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-blue-400" />
                 <a href="mailto:marcelaalonso@injectorsusa.com" className="hover:text-blue-400 transition-colors">
-                  marcelaalonso@injectorsusa.com
+                  contactus@injectorsusa.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">
@@ -81,7 +81,7 @@ const Footer = () => {
         
         {/* Bottom Footer */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2025 Diesel Injection Service. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2026 Diesel Injection Service. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
         
       </div>
